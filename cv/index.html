@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!-- ========== Favicon ============================-->
+        <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+
+        <title>Edu Cespedes Ordinola | Mi CV</title>
+    </head>
+    <body>
+
+        <!--==== Back ========-->
+        <div class="back-page">
+            <a href="../">Regresar <i class="bx bx-exit back__icon"></i></a>   
+        </div>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Edú Céspedes</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link"><i class="bx bx-home nav__icon"></i> Inicio</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link"><i class="bx bxs-user-circle nav__icon"></i> Perfil</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link"><i class="bx bx-book nav__icon"></i> Educación</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link"><i class="bx bx-receipt nav__icon"></i> Competencias</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link"><i class="bx bx-briefcase-alt-2 nav__icon"></i>Experiencia</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link"><i class="bx bx-award nav__icon"></i>Certificados</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#details" class="nav__link"><i class="bx bx-detail nav__icon" ></i> Detalles</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../" class="nav__link"><i class="bx bx-exit nav__icon"></i> Salir</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+
+                <div class="resume__left">
+
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+
+                                <img src="./assets/img/perfilCV.jpg" alt="Foto de Perfil" class="home__img">
+
+                                <h1 class="home__title">Edú Cespedes Ordinola</h1>
+                                <h3 class="home__profession">Desarrollador Web</h3>
+
+                                <!-- Button to generate and download the pdf. Available for movil. -->
+                                <div>
+                                    <a href="./assets/pdf/EduCespedesOrdinola.pdf" class="home__button-movil" download="">Descargar</a>
+                                </div>
+
+                            </div>
+
+                            <div class="home__address bd-grid">
+
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> Jr. Ucayali, Ferreñafe - Perú
+                                </span>
+
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i> educespedes1998@gmail.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i> 945-211-561
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Tema" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class="bx bx-download generate-pdf" title="Generar PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="http://educespedesordinola.infinityfreeapp.com/" class="social__link" target="_blank">
+                                <i class="bx bx-folder-open social__icon"></i>Mi Portafolio
+                            </a>
+                            <a href="https://www.linkedin.com/in/cespedesordinolaedu/" class="social__link" target="_blank">
+                                <i class="bx bxl-linkedin-square social__icon"></i>@cespedesordinolaedu
+                            </a>
+                            <a href="https://github.com/edussj2" class="social__link" target="_blank">
+                                <i class="bx bxl-github social__icon"></i>@edussj2
+                            </a>
+                            <a href="https://www.instagram.com/edussj2/" class="social__link" target="_blank">
+                                <i class="bx bxl-instagram social__icon"></i>@edussj2
+                            </a>
+                        </div>
+
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        
+                        <h2 class="section-title">Sobre mí</h2>
+                        
+                        <p class="profile__description">
+                            Me gusta utilizar las distintas tecnologías con las que contamos en la actualidad,
+                            poseo distintas competencias relacionadas tanto a la programación como a la
+                            informática. Busco solucionar problemas, presto atención a los detalles, y me
+                            agrada la buena gestión del tiempo. Soy autodidácta, proactivo y con ganas de
+                            seguir aprendiendo. 
+                        </p>
+
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        
+                        <h2 class="section-title">Educación</h2>
+
+                        <div class="education__container bg-grid">
+                            <div class="education__content">
+
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Ingienería en Computación e Informática</h3>
+                                    <span class="education__studies">Universidad Nacional Pedro Ruiz Gallo</span>
+                                    <span class="education__year">2015 - 2021</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        
+                        <h2 class="section-title">Hablididades</h2>
+
+                        <div class="skills__content bd-grid">
+
+                            <ul class="skills__data">
+                                
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-html5' ></i> HTML
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-css3' ></i> CSS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-javascript' ></i> JS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-php' ></i> PHP
+                                </li>
+
+                            </ul>
+
+                            <ul class="skills__data">
+                                
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-bootstrap' ></i> Bootstrap
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-jquery' ></i> JQuery
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-react' ></i> React Js
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxs-component' ></i> Laravel
+                                </li>
+
+                            </ul>
+
+                            <ul class="skills__data">
+                                
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bx-server' ></i> MySql
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bx-data' ></i> SqlServer
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bx-coffee' ></i> Java
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-spring-boot' ></i> Spring Boot
+                                </li>
+
+                            </ul>
+
+                            <ul class="skills__data">
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-adobe' ></i> Photoshop
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bxl-figma' ></i> Figma
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span><i class='bx bx-laptop' ></i> Offimática
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education2 section" id="education">
+                        
+                        <h2 class="section-title">Educación</h2>
+
+                        <div class="education__container bg-grid">
+                            <div class="education__content">
+
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Ingienería en Computación e Informática</h3>
+                                    <span class="education__studies">Universidad Nacional Pedro Ruiz Gallo</span>
+                                    <span class="education__year">2015 - 2021</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        
+                        <h2 class="section-title">Experiencia</h2>
+
+                        <div class="experience__container bd-grid">
+                            
+                            <div class="experience__content">
+
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Practicante de Informática</h3>
+                                    <span class="experience__company">2019 | GINSAC Lambayeque</span>
+                                    <p class="experience__description">En esta empresa mi función fue la de dar apoyo al área de Informática, realizando
+                                    distintas labores de Ofimática, usando herramientas como Excel, PowerPoint y
+                                    Word. Además de crear anuncios publicitarios o afiches según lo requería la
+                                    empresa, aprendiendo a utilizar a un nivel intermedio herramientas como
+                                    Photoshop.</p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="experience__content">
+
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Desarrollador Web</h3>
+                                    <span class="experience__company">2020 | COESPE Nacional</span>
+                                    <p class="experience__description">Mi trabajo fue la del desarrollo e implementación de su página web actual.
+                                    Aplicando mis conocimientos tanto en el Frontend con tecnologías como HTML,
+                                    CSS, JS, Bootstrap, jQuery, Html2PDF, SwiperJS, SweetAlert2; y en el Backend con
+                                    PHP, MySql, PhpExcel. Con la implementación de esta web se ayudó a tener un
+                                    control de los colegiados nuevos y existentes de dicho colegio, además de poder
+                                    tener control de los distintos procesos y entre otras muchas funcionalidades.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        
+                        <h2 class="section-title">Certificados y Cursos</h2>
+
+                        <div class="certificate__container bd-grid">
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">CERTIFICADO DE CONGRESO III CONECIT CHINCHA</h3>
+                                <p class="certificate__description">APECIT, agosto 2019</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Curso de Desarrollo de Aplicaciones PHP 7.3.5 & Laravel 6.4.1</h3>
+                                <p class="certificate__description">CETI, noviembre 2019</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Curso de Soporte y Mantenimiento de PC’S</h3>
+                                <p class="certificate__description">USS, abril 2020</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Cursos de JavaScript: Esencial, Diseño, Avanzado</h3>
+                                <p class="certificate__description">LinkedIn - Learning, agosto 2021</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!--========== DETALLES ==========-->
+                    <section class="details section" id="details">
+
+                        <h2 class="section-title">Detalles</h2>
+
+                        <div class="details__container bd-grid">
+
+                            <div class="details__content bd-grid">
+                                <span class="details__subtitle">Inglés</span>
+                                <h3 class="details__title">Básico - Intermedio</h3>
+                            </div>
+
+                            <div class="details__content bd-grid">
+                                <span class="details__subtitle">Licencia</span>
+                                <h3 class="details__title">B II-C</h3>
+                            </div>
+
+                            <div class="details__content bd-grid">
+                                <span class="details__subtitle">Dis. de Viajar o cambio de residencia</span>
+                                <h3 class="details__title">Sí</h3>
+                            </div>
+
+                            <div class="details__content bd-grid">
+                                <span class="details__subtitle">Hablididades Blandas</span>
+                                <h3 class="details__title">Autodidacta, responsable, disciplinado.</h3>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        
+                        <h2 class="section-title">Intereses</h2>
+
+                        <div class="interests__container bd-grid">
+
+                            <div class="interests__content">
+                                <i class="bx bxs-devices interests__icon"></i>
+                                <span class="interests__name">Programación</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-football interests__icon"></i>
+                                <span class="interests__name">Fútbol</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-music interests__icon"></i>
+                                <span class="interests__name">Música</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxs-plane interests__icon"></i>
+                                <span class="interests__name">Viajes</span>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="./assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

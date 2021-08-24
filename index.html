@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!-- ============== Swiper ======================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!-- =========== Alertify ===========================-->
+        <link rel="stylesheet" href="assets/css/alertify.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ========== Favicon ============================-->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+        <title>Edú Céspedes Ordinola | Mi Portafolio</title>
+    </head>
+    <body>
+
+        <!--================CURSOR PERSONALIZADO====================-->
+        <div class="c-cursor | js-cursor">
+            <div class="c-cursor__inner"></div>
+        </div>
+
+        <!--==================== LOADER ====================-->
+        <div class="loader">
+            <div class="main__loader">
+                <div class="shadow-wrapper">
+                    <div class="shadow"></div>
+                </div>
+                <div class="dragon">
+                    <div class="body"></div>
+                    <div class="horn-left"></div>
+                    <div class="horn-right"></div>
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="blush left"></div>
+                    <div class="blush right"></div>
+                    <div class="mouth"></div>
+                    <div class="tail-sting"></div>
+                </div>
+                <div class="fire-wrapper">
+                    <div class="fire"></div>
+                </div>
+                <div class="progress">
+                    <div class="outer">
+                        <div class="inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+
+                <a href="#" class="nav__logo"><i class="uil uil-constructor"></i> Edú Céspedes</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user-circle nav__icon"></i> Sobre mí
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-bookmark-alt nav__icon"></i> Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Servicios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-book-open nav__icon"></i> Portafolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contacto
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+
+                    <!-- cambio de tema -->
+                    <i class="uil uil-moon change-theme js-link" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/cespedesordinolaedu/"  target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                                <span class="tooltip">Linkedin</span>
+                            </a>
+                            <a href="https://github.com/edussj2" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                                <span class="tooltip">Github</span>
+                            </a>
+                            <a href="https://www.instagram.com/edussj2/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram-alt"></i>
+                                <span class="tooltip">Instagram</span>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <img src="assets/img/perfil.png" alt="Imagen de Presentación">
+                        </div>  
+
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                Hola, soy <span class="home__title-color">Edú</span>
+                            </h1>
+                            <h3 class="home__subtitle home__title-color">
+                                Desarrollador <span class="typed"></span>
+                            </h3>
+                            <p class="home__description">
+                                Soy un apasionado de la programación, enfocado en el desarrollo web, además de ser una persona autodidácta y proactiva.
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Contáctame <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Ir abajo</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+
+                <h2 class="section__title">Sobre mí</h2>
+                <span class="section__subtitle">Mi Información</span>
+                
+                <div class="about__container container grid">
+
+                    <div class="about__img">
+
+                        <div class="about__card--img">
+                            <img src="./assets/img/about.jpg" alt="Edú Cespedes Ordinola" loading="lazy">
+                        </div>
+
+                        <div class="about__card--description">
+                            <h2>Edú Céspedes Ordinola <br> <span>Desarrollador</span></h2>
+
+                            <ul>
+                                <li><a href="http://m.me/CespedesOrdinolaEdu" class="link-msgr" title="Messenger" target="_blank"><i class="uil uil-facebook-messenger"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=945211561&text=Visite tu portafolio" class="link-wsp" title="Whatsapp" target="_blank"><i class="uil uil-whatsapp"></i></a></li>
+                                <li><a href="mailto:educespedes1998@gmail.com?subject=Hola, vengo desde tu portafolio&body=Hola Edú,..." class="link-email" title="Email"><i class="uil uil-envelope"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="about__data">
+
+                        <p class="about__description">
+                            Soy estudiante de la escuela profesional de Ingienería en Computación e Informática de la Univerdad Nacional Pedro Ruiz Gallo de Lambayeque, Perú.
+                        </p>
+
+                        <div class="about__info">
+                            <div class="numeracion__about">
+                                <span class="about__info-title" id="cont1" data-cantidad="6000">00</span>
+                                <span class="about__info-name"><i class="uil uil-brackets-curly icon__about"></i> Líneas <br> de código</span>
+                            </div>
+                            <div class="numeracion__about">
+                                <span class="about__info-title" id="cont2" data-cantidad="250">00</span>
+                                <span class="about__info-name"><i class="uil uil-clock-nine icon__about"></i> Horas <br> Trabajadas</span>
+                            </div>
+                            <div class="numeracion__about">
+                                <span class="about__info-title" id="cont3" data-cantidad="06">0</span>
+                                <span class="about__info-name"><i class="uil uil-folder-check icon__about"></i> Proyectos <br> Terminados</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+
+                            <a href="./cv/" class="button button--flex m-b-1 m-l-1">
+                                    Leer más <i class="uil uil-file-check-alt button__icon"></i>
+                            </a>
+
+                            <div class='hero-btn'>
+                                <a href="./cv/assets/pdf/EduCespedesOrdinola.pdf" class="button button--flex button--efecto" download="">
+                                    Descargar CV <i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                                <span class='particles-circle'></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+
+                <h2 class="section__title">Habilidades</h2>
+                <span class="section__subtitle">Mis conocimientos técnicos</span>
+
+                <div class="skills__container container grid">
+
+                    <div class="skills__left">
+
+                        <!--==================SKILLS 1====================-->
+                        <div class="skills__content skills__open js-link">
+                            <div class="skills__header">
+                                <i class="uil uil-arrow skills__icon"></i>
+                                
+                                <div>
+                                    <h1 class="skills__title">Desarrollo Frontend</h1>
+                                    <span class="skills__subtitle">Interfaz Gráfica</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div> 
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React Js</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+
+                        <!--==================SKILLS 2====================-->
+                        <div class="skills__content skills__close js-link">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+                                
+                                <div>
+                                    <h1 class="skills__title">Desarrollo Backend</h1>
+                                    <span class="skills__subtitle">Lógica de la Web</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__php"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JAVA</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__java"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Laravel</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__laravel"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mysql"></span>
+                                    </div>
+                                </div> 
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL Server</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sql"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills__right">
+
+                        <!--==================SKILLS 3====================-->
+                        <div class="skills__content skills__close js-link">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+                                
+                                <div>
+                                    <h1 class="skills__title">Diseño</h1>
+                                    <span class="skills__subtitle">IU / UX</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__figma"></span>
+                                    </div>
+                                </div> 
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe XD</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__adobexd"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__photoshop"></span>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+
+                        <!--==================SKILLS 4====================-->
+                        <div class="skills__content skills__close js-link">
+                            <div class="skills__header">
+                                <i class="uil uil-presentation-lines-alt skills__icon"></i>
+                                
+                                <div>
+                                    <h1 class="skills__title">Otras Habilidades</h1>
+                                    <span class="skills__subtitle">Ofimática, Soporte</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Microsoft Excel</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__excel"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Microsoft Word</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__word"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Microsoft PowerPoint</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__point"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Soporte Técnico</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__soporte"></span>
+                                    </div>
+                                </div> 
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Git y GitHub</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__gib"></span>
+                                    </div>
+                                </div> 
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+
+                <h2 class="section__title">Estudios y Experiencia</h2>
+                <span class="section__subtitle">Mi viaje personal</span>
+
+                <div class="qualification__container container">
+
+                    <div class="qualification__tabs">
+
+                        <div class="qualification__button button--flex qualification__active js-link" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i> Educación
+                        </div>
+
+                        <div class="qualification__button button--flex js-link" data-target="#work">
+                            <i class="uil uil-suitcase qualification__icon"></i> Experiencia
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+
+                        <!--==================== QUALIFICATION TAB 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+
+                                <!-- Item 1 -->
+                                <div class="qualification__data">
+
+                                    <div>
+                                        <h3 class="qualification__title">Ingienería en Computación e Informática</h3>
+                                        <span class="qualification__subtitle">Universidad Pedro Ruiz Gallo, Lambayeque</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2015-2021
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <div class="qualification__line"></div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Item 2 -->
+                                <div class="qualification__data">
+
+                                    <div></div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <div class="qualification__line"></div>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification__title">Certificación de Congreso III Conecit Chincha</h3>
+                                        <span class="qualification__subtitle">Apecit, Lima</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            Agosto, 2019
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Item 3 -->
+                                <div class="qualification__data">
+
+                                    <div>
+                                        <h3 class="qualification__title">Curso de desarrollo de aplicaciones PHP 7.3.5 & Laravel 6.4.1</h3>
+                                        <span class="qualification__subtitle">CETI, Lambayeque</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            Noviembre, 2019
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <div class="qualification__line"></div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Item 4 -->
+                                <div class="qualification__data">
+
+                                    <div></div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <div class="qualification__line"></div>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification__title">Curso de Soporte y Mantenimiento de  PC'S</h3>
+                                        <span class="qualification__subtitle">USS, Lambayeque</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            Abril, 2020
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Item 5 -->
+                                <div class="qualification__data">
+
+                                    <div>
+                                        <h3 class="qualification__title">Cursos de JavaScript: Esencial, Diseño, Avanzado</h3>
+                                        <span class="qualification__subtitle">Linkedin Learning</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            Agosto, 2021
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION TAB 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+
+                                <!-- Item 1 -->
+                                <div class="qualification__data">
+
+                                    <div>
+                                        <h3 class="qualification__title">Practicante de Informática</h3>
+                                        <span class="qualification__subtitle">GINSAC, Lambayeque</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2019
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <div class="qualification__line"></div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Item 2 -->
+                                <div class="qualification__data">
+
+                                    <div></div>
+
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <div class="qualification__line"></div>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="qualification__title">Desarrollador Web</h3>
+                                        <span class="qualification__subtitle">COESPE Nacional</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2020
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+
+                <h2 class="section__title">Servicios</h2>
+                <span class="section__subtitle">Lo que te ofrezco</span>
+
+                <div class="services__container container grid">
+
+                    <!--===============Servicio 01========================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-palette services__icon"></i>
+                            <h3 class="services__title">Diseñador <br> Web</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button js-link">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title"><i class="uil uil-pen"></i> Diseñador Web</h4>
+                                <i class="uil uil-times-circle services__modal-close js-link"></i>
+
+                                <div class="services__modal-img">
+                                    <img src="./assets/img/desing.svg" alt="Diseñador Web">
+                                </div>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Valoro la estructura de contenido simple, los patrones de diseño limpios y las interacciones reflexivas.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p><i class="color-first">Cosas que disfruto diseñando:</i> <br> UX, UI, Web, Móvil, Aplicaciones, Logos.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p><i class="color-first">Herramientas de diseño:</i> <br> Adobe XD, Figma, Photoshop.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===============Servicio 02========================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-laptop services__icon"></i>
+                            <h3 class="services__title">Desarrollador <br> Frontend</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button js-link">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title"><i class="uil uil-arrow"></i> Desarrollador Frontend</h4>
+                                <i class="uil uil-times-circle services__modal-close js-link"></i>
+
+                                <div class="services__modal-img">
+                                    <img src="./assets/img/fontend.svg" alt="Desarrollador Frontend">
+                                </div>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Me gusta que las aplicaciones web sean totalmente <i class="color-first">responsivas</i>.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p><i class="color-first">Herramientas y lenguajes que manejo: </i> <br> HTML, CSS, JS, Bootstrap, Jquery, ReactJs</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===============Servicio 03========================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-circuit services__icon"></i>
+                            <h3 class="services__title">Desarrollador <br> Backend</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button js-link">
+                            Ver más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title"><i class="uil uil-brackets-curly"></i> Desarrollador Backend</h4>
+                                <i class="uil uil-times-circle services__modal-close js-link"></i>
+
+                                <div class="services__modal-img">
+                                    <img src="./assets/img/backend.svg" alt="Desarrollador Backend">
+                                </div>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Me gusta trabajar del lado del servidor con PHP y Laravel en conjunto, pero también sé trabajar con Java y Spring Boot.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p><i class="color-first">Herramientas y lenguajes que manejo: </i> <br> PHP, SQL Server, Laravel, Ajax, MySQL, JAVA</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+
+                        <div class="project__data">
+                            <h2 class="project__title">¿Tienes un proyecto nuevo?</h2>
+                            <p class="project__description">Contáctame ahora y hablemos de tu nuevo proyecto.</p>
+                            <a href="#contact" class="button button--flex button--white">
+                                Enviar Mensaje
+                                <i class="uil uil-message project__icon button__icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="container-coffe">
+                            <div class="plate-coffe"></div>
+                            <div class="cup-coffe">
+                                <div class="top-coffe">
+                                    <div class="vapour-coffe">
+                                        <span style="--i:1;"></span>
+                                        <span style="--i:3;"></span>
+                                        <span style="--i:16;"></span>
+                                        <span style="--i:5;"></span>
+                                        <span style="--i:13;"></span>
+                                        <span style="--i:20;"></span>
+                                        <span style="--i:6;"></span>
+                                        <span style="--i:7;"></span>
+                                        <span style="--i:10;"></span>
+                                        <span style="--i:8;"></span>
+                                        <span style="--i:17;"></span>
+                                        <span style="--i:11;"></span>
+                                        <span style="--i:12;"></span>
+                                        <span style="--i:14;"></span>
+                                        <span style="--i:2;"></span>
+                                        <span style="--i:9;"></span>
+                                        <span style="--i:15;"></span>
+                                        <span style="--i:4;"></span>
+                                        <span style="--i:19;"></span>
+                                    </div>
+                                    <div class="circle-coffe">
+                                        <div class="tea-coffe"></div>
+                                    </div>
+                                </div>
+                                <div class="handle-coffe">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container__project-img">
+                            <img src="./assets/img/contactame-proyecto.png" alt="Imagen de Proyecto">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--=============== PORTFOLIO ===============-->
+            <section class="portfolio section" id="portfolio">
+
+                <h2 class="section__title">Portafolio</h2>
+                <span class="section__subtitle2">Mis proyectos recientes</span>
+
+                <div class="portfolio__container">
+
+                    <div class="swiper-container swiper-portfolio">
+                        
+                        <div class="swiper-wrapper">
+                        
+                            <div class="card__portfolio swiper-slide">
+                                <div class="card__portfolio--card">
+                                    <div class="card__img--portfolio" id="img01"> </div>
+                                    <div class="card__content--portfolio"> 
+                                        <p class="card__content-theme--portfolio">COESPE</p>
+                                        <h2 class="card__content-header--portfolio">Portal COESPE</h2>
+                                        <p class="card__content-paragraph--portfolio">Fue el primer proyecto que asumí, renovando todo el aspecto y lógica de funcionamiento de su antigua página web. Además de cambiar toda la parte la parte visual, modifique su base de datos para que tengan un control tanto del los colegiados como del contenido más relevante de la Web.</p>
+                                        <div class="card__content--links">
+                                            <a href="https://drive.google.com/drive/folders/1NEu1r2W6VnAGZUs782xcUiN7eSVcot0c?usp=sharing" target="_blank" title="Imágenes de la Web"><i class="uil uil-images"></i></a>
+                                            <a href="https://www.coespe.org/" target="_blank" title="Sitio Web"><i class="uil uil-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card__portfolio swiper-slide">
+                                <div class="card__portfolio--card">
+                                    <div class="card__img--portfolio" id="img02"> </div>
+                                    <div class="card__content--portfolio"> 
+                                        <p class="card__content-theme--portfolio">UNPRG</p>
+                                        <h2 class="card__content-header--portfolio">Covid Plataforma</h2>
+                                        <p class="card__content-paragraph--portfolio">Esta plataforma la desarrollé para alumnos que cursaban los últimos ciclos de la carrera de Computación e Informática de la Universidad Nacional Pedro Ruiz Gallo. Realizando desde 0 tanto la parte del Frontend como la del Backend, obteniendo una plataforma totalmente personalizada.</p>
+                                        <div class="card__content--links">
+                                            <a href="https://drive.google.com/drive/folders/1YzawzFM5iJ9uiogkQJJOjjQlFSZM6iV6?usp=sharing" target="_blank" title="Imágenes de la Web"><i class="uil uil-images"></i></a>
+                                            <a href="" title="Sitio Web" target="_blank"><i class="uil uil-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card__portfolio swiper-slide">
+                                <div class="card__portfolio--card">
+                                    <div class="card__img--portfolio" id="img03"> </div>
+                                    <div class="card__content--portfolio"> 
+                                        <p class="card__content-theme--portfolio">UNPRG</p>
+                                        <h2 class="card__content-header--portfolio">Workstudy</h2> 
+                                        <p class="card__content-paragraph--portfolio">Es una web desarrollada para el curso de Proyectos Informáticos en el transcurso de mi carrera universitaria, empleando SCRUM como metodología de trabajo, quedando en la versión 2 de las 3 proyectadas. Busca emular una web social para compartir ofertas laborales, cursos, y anuncios de tutoría entre los usuarios y además de permitir a los usuarios de tipo empresa, gestionar sus ofertas laborales.</p>
+                                        <div class="card__content--links">
+                                            <a href="https://drive.google.com/drive/folders/1FYO-7tJMiXC8AEae8AMTjwp631JAyAPG?usp=sharing" target="_blank" title="Imágenes de la Web"><i class="uil uil-images"></i></a>
+                                            <a href="" title="Sitio Web" target="_blank"><i class="uil uil-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card__portfolio swiper-slide">
+                                <div class="card__portfolio--card">
+                                    <div class="card__img--portfolio" id="img04"> </div>
+                                    <div class="card__content--portfolio"> 
+                                        <p class="card__content-theme--portfolio">Proyecto</p>
+                                        <h2 class="card__content-header--portfolio">Compras & Ventas</h2>
+                                        <p class="card__content-paragraph--portfolio">Este sistema es un prototipo que lo hizé con el propósito de prácticar y desarollar conocimientos en el ámbito de sistemas en compras y ventas de productos, fue enfocado en el rubro de una Ferretería. Dispone de una base de datos totalmente escalable para su mejora. Se utilizo una plantilla para este sistema.</p>
+                                        <div class="card__content--links">
+                                            <a href="" title="GitHub" target="_blank"><i class="uil uil-github-alt"></i></a>
+                                            <a href="https://drive.google.com/drive/folders/1o7wabgNHI2Q1yecB3sp9Y_8cDyvQmDQ3?usp=sharing" title="Imágenes de la Web" target="_blank"><i class="uil uil-images"></i></a>
+                                            <a href="" title="Sitio Web" target="_blank"><i class="uil uil-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card__portfolio swiper-slide">
+                                <div class="card__portfolio--card">
+                                    <div class="card__img--portfolio" id="img05"> </div>
+                                    <div class="card__content--portfolio"> 
+                                        <p class="card__content-theme--portfolio">Proyecto</p>
+                                        <h2 class="card__content-header--portfolio">Tienda en Línea</h2>
+                                        <p class="card__content-paragraph--portfolio">Es un proyecto prototipo que lo desarrollé para comprender de alguna forma el funcionaiento de un e-comerce, y así fortalecer mis conociminetos de modelado de datos, como también el hacer esta web potenció mis conocimientos de JavaScript.</p>
+                                        <div class="card__content--links">
+                                            <a href="" title="GitHub" target="_blank"><i class="uil uil-github-alt"></i></a>
+                                            <a href="https://drive.google.com/drive/folders/1fj8N6g9bn3vw_vErtggPLSdPpR8NPomV?usp=sharing" title="Imágenes de la Web" target="_blank"><i class="uil uil-images"></i></a>
+                                            <a href="" title="Sitio Web" target="_blank"><i class="uil uil-link"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-pagination position-bullets"></div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!--==================== TESTIMONIAL ====================-->
+            <!--
+            <section class="testimonial section">
+
+                <h2 class="section__title">Testimonios</h2>
+                <span class="section__subtitle">Mis clientes</span>
+
+                <div class="testimonial__container container swiper-container">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="testimonial__content swiper-slide">
+                            <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+                            <h3 class="testimonial__title">Edu Cespedes</h3>
+                            <span class="testimonial__client">Cliente</span>
+                            <p class="testimonial__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia veniam nisi, ratione accusamus expedita necessitatibus?</p>
+                        </div>
+
+                        <div class="testimonial__content swiper-slide">
+                            <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+                            <h3 class="testimonial__title">Carmen Martinez</h3>
+                            <span class="testimonial__client">Cliente</span>
+                            <p class="testimonial__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia veniam nisi, ratione accusamus expedita necessitatibus?</p>
+                        </div>
+
+                        <div class="testimonial__content swiper-slide">
+                            <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+                            <h3 class="testimonial__title">Marcos Asencio</h3>
+                            <span class="testimonial__client">Cliente</span>
+                            <p class="testimonial__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia veniam nisi, ratione accusamus expedita necessitatibus?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+            </section>
+            -->
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+
+                <h2 class="section__title">Contacto</h2>
+                <span class="section__subtitle">Contáctate conmigo</span>
+
+                <div class="contact__container container grid">
+                    
+                    <div class="contact__left">
+
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Celular</h3>
+                                <span class="contact__subtitle">945-211-561</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">educespedes1998@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Ubicación</h3>
+                                <span class="contact__subtitle">Lambayeque, Perú</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="grid">
+                        <div id="fullpage">  
+                            <div class="section-mon">
+                                <div class="time-circle">
+                                    <div class="sun"></div>
+                                    <div class="moon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="stars">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="water"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    <form action="" class="contact__form grid" autocomplete="off" id="form_msje" method="POST">
+                        <div class="contact__inputs grid">
+
+                            <div class="contact__content">
+                                <label for="nombre-reg" class="contact__label">Nombre</label>
+                                <input type="text" class="contact__input" name="nombre_reg" id="nombre-reg">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="email-reg" class="contact__label">Email</label>
+                                <input type="email" class="contact__input" name="email_reg" id="email-reg">
+                            </div>
+
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="proyecto-reg" class="contact__label">Proyecto</label>
+                            <input type="text" class="contact__input" name="proyecto_reg" id="proyecto-reg">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="mensaje-reg" class="contact__label">Mensaje</label>
+                            <textarea name="mensaje_reg" id="mensaje-reg" cols="0" rows="7" class="contact__input contact__text"></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="button button--flex button-send">
+                                Enviar
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                    </form>
+                    -->
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    
+                    <div>
+                        <h1 class="footer__title">Edú</h1>
+                        <span class="footer__subtitle">Mi sitio web personal &#9749;.</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+
+                        <a href="https://www.linkedin.com/in/cespedesordinolaedu/" class="footer__social social-link social-link--linkedin" id="linkedin" target="_blank">
+                            <svg class="social-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                <title>
+                                  Linkedin
+                                </title>
+                                <g class="social-group" fill="none" fill-rule="evenodd">
+                                  <circle class="social-group__outline" stroke="#000" stroke-width="20" cx="300" cy="300" r="262.5" />
+                                  <circle class="social-group__inner-circle" fill="#2D76B0" cx="300" cy="300" r="252.5" />
+                                  <path class="social-group__icon" d="M278.9308 253.1923h43.5769v20.0539h.5923c6.0923-11.5077 20.9-23.6077 43.0692-23.6077 46.0308 0 54.577 30.2923 54.577 69.723v80.2154h-45.4385v-71.1615c0-17.0077-.2539-38.8385-23.6077-38.8385-23.6923 0-27.2462 18.5308-27.2462 37.5693v72.4307h-45.4384l-.0846-146.3846zm-74.1231 0h45.523V399.577h-45.523V253.1923zm22.8461-72.7692c14.5539 0 26.4 11.8461 26.4 26.4 0 14.5538-11.8461 26.4-26.4 26.4-14.6384 0-26.4-11.8462-26.4-26.4 0-14.5539 11.7616-26.4 26.4-26.4z"
+                                    fill="#000" fill-rule="nonzero" />
+                                </g>
+                              </svg>
+                        </a>
+
+                        <a href="https://www.instagram.com/edussj2/" class="footer__social social-link social-link--instagram" id="instagram" target="_blank">
+                            <svg class="social-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                <title>
+                                  Instagram
+                                </title>
+                                <defs>
+                                  <linearGradient x1="0%" y1="100%" y2="0%" id="simpleInsta">
+                                    <stop stop-color="#D72F3F" offset="0%" />
+                                    <stop stop-color="#4221B9" offset="100%" />
+                                  </linearGradient>
+                                </defs>
+                                <g class="social-group" fill="none" fill-rule="evenodd">
+                                  <circle class="social-group__outline" stroke="#000" stroke-width="20" cx="300" cy="300" r="262.5" />
+                                  <circle class="social-group__inner-circle social-group__inner-circle--instagram" fill="url(#simpleInsta)" cx="300" cy="300"
+                                    r="252.5" />
+                                  <path class="social-group__icon" d="M436.8577 205.4154c-3.6808-9.4808-8.5885-17.5116-16.6192-25.5423-8.0308-8.0308-16.0616-12.9385-25.5423-16.6193-9.1462-3.5692-19.7424-6.023-35.0231-6.6923-15.3923-.6692-20.3-.8923-59.5616-.8923-39.2615 0-44.1692.1116-59.5615.8923-15.3923.6693-25.877 3.1231-35.023 6.6923-9.4808 3.6808-17.5116 8.5885-25.5424 16.6193-8.0308 8.0307-12.9384 16.0615-16.6192 25.5423-3.5692 9.1461-6.023 19.7423-6.6923 35.023-.6693 15.3924-.8923 20.3-.8923 59.5616 0 39.2615.1115 44.1692.8923 59.5615.6692 15.3923 3.123 25.877 6.6923 35.0231 3.6808 9.4808 8.5884 17.5116 16.6192 25.5423 8.0308 8.0308 16.0616 12.9385 25.5423 16.6193 9.1462 3.5692 19.7423 6.023 35.0231 6.6923 15.3923.6692 20.3.8923 59.5615.8923 39.2616 0 44.1693-.1116 59.5616-.8923 15.3923-.6693 25.8769-3.1231 35.023-6.6923 9.4808-3.6808 17.5116-8.5885 25.5424-16.6193 8.0307-8.0307 12.9384-16.0615 16.6192-25.5423 3.5692-9.1461 6.023-19.7423 6.6923-35.023.6692-15.3924.8923-20.3.8923-59.5616 0-39.2615-.1115-44.1692-.8923-59.5615-.6692-15.3923-3.123-25.877-6.6923-35.0231zm-19.2962 152.9192c-.6692 14.0539-3.0115 21.75-5.0192 26.7692-2.5654 6.6924-5.8 11.6-10.8192 16.6193-5.0193 5.0192-9.8154 8.1423-16.6193 10.8192-5.1307 2.0077-12.7153 4.35-26.7692 5.0192-15.2808.6693-19.7423.8923-58.3346.8923s-43.1654-.1115-58.3346-.8923c-14.0539-.6692-21.75-3.0115-26.7692-5.0192-6.6924-2.5654-11.6-5.8-16.6193-10.8192-5.0192-5.0193-8.1423-9.8154-10.8192-16.6193-2.0077-5.1307-4.35-12.7153-5.0192-26.7692-.6693-15.2808-.8923-19.8538-.8923-58.3346s.1115-43.1654.8923-58.3346c.6692-14.0539 3.0115-21.75 5.0192-26.7692 2.5654-6.6924 5.8-11.6 10.8192-16.6193 5.0193-5.0192 9.8154-8.1423 16.6193-10.8192 5.1307-2.0077 12.7153-4.35 26.7692-5.0192 15.2808-.6693 19.8538-.8923 58.3346-.8923s43.1654.1115 58.3346.8923c14.0539.6692 21.75 3.0115 26.7692 5.0192 6.6924 2.5654 11.6 5.8 16.6193 10.8192 5.0192 5.0193 8.1423 9.8154 10.8192 16.6193 2.0077 5.1307 4.35 12.7153 5.0192 26.7692.6693 15.2808.8923 19.8538.8923 58.3346s-.223 43.1654-.8923 58.3346zM300 225.827c-40.9346 0-74.173 33.2385-74.173 74.1731s33.2384 74.173 74.173 74.173 74.173-33.2384 74.173-74.173-33.2384-74.173-74.173-74.173zm0 122.3577c-26.5462 0-48.1846-21.527-48.1846-48.1846 0-26.5462 21.527-48.1846 48.1846-48.1846 26.6577 0 48.1846 21.527 48.1846 48.1846 0 26.5462-21.6384 48.1846-48.1846 48.1846zm77.073-107.9692c-9.548 0-17.2884-7.7403-17.2884-17.2885 0-9.5481 7.7403-17.2884 17.2885-17.2884 9.5481 0 17.2884 7.7403 17.2884 17.2884 0 9.5482-7.7403 17.2885-17.2884 17.2885z"
+                                    fill="#FFF" fill-rule="nonzero" />
+                                </g>
+                              </svg>
+                        </a>
+
+                        <a href="https://github.com/edussj2" class="footer__social social-link social-link--github" id="github" target="_blank">
+                            <svg class="social-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                <title>
+                                  Github
+                                </title>
+                                <g class="social-group" fill="none" fill-rule="evenodd">
+                                  <circle class="social-group__outline" stroke="#000" stroke-width="20" cx="300" cy="300" r="262.5" />
+                                  <circle class="social-group__inner-circle" fill="#000" cx="300" cy="300" r="252.5" />
+                                  <path class="social-group__icon" d="M300 150c-82.8348 0-150 68.8393-150 153.817 0 67.9687 42.991 125.558 102.5893 145.9151 7.5 1.4063 10.2455-3.3482 10.2455-7.433 0-3.683-.134-13.3259-.2009-26.183-41.7187 9.308-50.558-20.625-50.558-20.625-6.8304-17.7456-16.6741-22.5-16.6741-22.5-13.5938-9.576 1.0044-9.375 1.0044-9.375 15.067 1.0714 22.9688 15.8705 22.9688 15.8705 13.3929 23.5045 35.0893 16.741 43.6607 12.7902 1.3393-9.9107 5.2232-16.741 9.509-20.558-33.2813-3.884-68.3036-17.076-68.3036-76.0045 0-16.808 5.8259-30.5357 15.4018-41.25-1.5402-3.884-6.6965-19.5536 1.4732-40.7143 0 0 12.5893-4.1518 41.25 15.7366 11.9866-3.4152 24.7768-5.0893 37.567-5.1562 12.7231.067 25.5803 1.741 37.5669 5.1562 28.6607-19.8884 41.183-15.7366 41.183-15.7366 8.1697 21.1607 3.0134 36.8304 1.4733 40.7143 9.5758 10.7812 15.4017 24.509 15.4017 41.25 0 59.0625-35.0892 72.0536-68.5044 75.8705 5.3571 4.7545 10.1785 14.1295 10.1785 28.4598 0 20.558-.2009 37.1652-.2009 42.1875 0 4.0849 2.6786 8.9063 10.3125 7.3661C407.076 429.308 450 371.7187 450 303.817 450 218.8393 382.8348 150 300 150z"
+                                    fill="#FFF" fill-rule="nonzero" />
+                                </g>
+                            </svg>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <p class="footer__copy">© Derechos Reservados | Edú &#128526;</p>
+            </div>
+            
+        </footer>
+    
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== Swiper JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== Typed JS ====================-->
+        <script src="assets/js/typed.js"></script>
+
+        <!--==================== Scroll Reveal ====================-->
+        <script src="assets/js/scrollreveal.js"></script>
+
+        <!--==================== JQuery ====================-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- =========== Alertify ===========================-->
+        <script src="assets/js/alertify.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
