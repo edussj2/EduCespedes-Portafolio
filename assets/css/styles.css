@@ -6,7 +6,6 @@
 
 
 
-
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
@@ -251,6 +250,14 @@ img{
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+}
+
+.section__subtitle3{
+    display: block;
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-2);
+    text-align: center;
+    font-weight: var(--font-semi-bold);
 }
 
 
@@ -1788,35 +1795,43 @@ img{
 }
 
 .skills__html{
-    width: 80%;
+    width: 90%;
 }
 
 .skills__css{
-    width: 70%;
+    width: 85%;
 }
 
 .skills__js{
-    width: 60%;
-}
-
-.skills__react{
-    width: 60%;
-}
-
-.skills__php{
     width: 80%;
 }
 
-.skills__python{
-    width: 55%;
+.skills__jq{
+    width: 75%;
 }
 
-.skills__java{
-    width: 60%;
+.skills__react{
+    width: 70%;
+}
+
+.skills__angular{
+    width: 65%;
+}
+
+.skills__php{
+    width: 85%;
+}
+
+.skills__node{
+    width: 65%;
 }
 
 .skills__laravel{
-    width: 65%;
+    width: 70%;
+}
+
+.skills__synfony{
+    width: 60%;
 }
 
 .skills__mysql{
@@ -1828,15 +1843,19 @@ img{
 }
 
 .skills__excel{
-    width: 70%;
+    width: 80%;
 }
 
 .skills__word{
-    width: 85%;
+    width: 90%;
 }
 
 .skills__point{
-    width: 80%;
+    width: 85%;
+}
+
+.skills__project{
+    width: 75%;
 }
 
 .skills__soporte{
@@ -1844,7 +1863,7 @@ img{
 }
 
 .skills__gib{
-    width: 70%;
+    width: 75%;
 }
 
 .skills__figma{
@@ -1916,13 +1935,13 @@ img{
 .qualification__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
     color: var(--text-color);
 }
 
 .qualification__calendar{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
+    margin-top: .65rem;
 }
 
 .qualification__rounder{
@@ -1957,6 +1976,20 @@ img{
     color: var(--first-color);
 }
 
+.qualification-link{
+    font-size: var(--small-font-size);
+    color: var(--first-color);
+    display: block;
+    margin-top: .2rem;
+}
+.qualification-link i{
+    transition: .4s;
+}
+.qualification-link:hover i{
+    color: rgb(226, 226, 34);
+    font-size: 15px;
+    transition: .4s;
+}
 
 
 
@@ -2429,6 +2462,91 @@ img{
 
 
 
+/*======= APP ==========*/
+.section__title-center{
+    margin-bottom: var(--mb-1);
+}
+
+.svg__img {
+    width: 250px;
+    justify-self: center;
+}
+
+.app__container {
+    gap: 2.5rem;
+}
+  
+.app__data {
+    text-align: center;
+}
+  
+.app__description {
+    margin-bottom: var(--mb-1-5);
+}
+  
+.app__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    gap: .5rem;
+}
+
+/* For small devices */
+@media screen and (max-width: 360px) {
+    .app__buttons {
+      grid-template-columns: max-content;
+    }
+}
+  
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .app__container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .app__container {
+      align-items: center;
+    }
+
+    .app__data {
+      text-align: initial;
+    }
+    
+    .app__img {
+      order: -1;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .app__img {
+      margin-top: 1rem;
+    }
+    .svg__img {
+        width: 250px;
+    }
+}
+  
+@media screen and (min-width: 767px) {
+    .app__buttons {
+      justify-content: initial;
+    }
+}
+  
+@media screen and (min-width: 968px) {
+    .app__container {
+      column-gap: 6rem;
+    }
+}
+  
+
+  
+  
+
+  
+
+
+
+
 
 
 
@@ -2505,6 +2623,7 @@ img{
 /*==================== CONTACT ME ====================*/
 .contact__container{
     row-gap: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .contact__information{
