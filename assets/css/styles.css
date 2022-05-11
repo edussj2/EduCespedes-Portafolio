@@ -1811,11 +1811,11 @@ img{
 }
 
 .skills__react{
-    width: 70%;
+    width: 65%;
 }
 
 .skills__angular{
-    width: 65%;
+    width: 75%;
 }
 
 .skills__php{
@@ -3020,7 +3020,7 @@ img{
 .footer__copy{
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: #FFF;
     margin-top: var(--mb-3);
 }
 
